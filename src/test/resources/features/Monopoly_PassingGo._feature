@@ -1,0 +1,12 @@
+Feature: Player passing, collecting 200 dollars
+
+  Scenario Outline: Player completing a lap of the board
+    Given the player is at <CURRENT_POSITION>
+    When the player rolls a <DICE_ROLL>
+    And the player has <AMOUNT> dollars
+    Then the player should have <NEW_AMOUNT> dollars
+    Examples:
+      | CURRENT_POSITION | AMOUNT | DICE_ROLL | NEW_AMOUNT |
+      | 38               | 1000   | 3         | 1200       |
+      | 4                | 1000   | 12        | 1000       |
+      | 38               | 400    | 2         | 400        |

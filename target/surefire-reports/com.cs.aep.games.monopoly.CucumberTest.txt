@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: com.cs.aep.games.monopoly.CucumberTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.51 sec <<< FAILURE!
+Model the player movement around the board(Play game with 2 AI)  Time elapsed: 0.12 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[0]> but was:<[11]>
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at com.cs.aep.games.monopoly.MonopolyStepDefinitions.playerSNewPositionIsNEW_LOCATION(MonopolyStepDefinitions.java:35)
+	at ✽.player 1's new position is 11(classpath:features/Monopoly_PlayGame_Movement.feature:10)
+
+Model the player movement around the board(Play game with 2 AI)  Time elapsed: 0 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[0]> but was:<[5]>
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at com.cs.aep.games.monopoly.MonopolyStepDefinitions.playerSNewPositionIsNEW_LOCATION(MonopolyStepDefinitions.java:35)
+	at ✽.player 1's new position is 5(classpath:features/Monopoly_PlayGame_Movement.feature:10)
+
